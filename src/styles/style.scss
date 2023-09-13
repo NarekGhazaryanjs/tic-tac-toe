@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
+
+@import "./variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.color-red {
+  color: $red;
+}
+
+.color-blue {
+  color: $blue;
+}

@@ -1,0 +1,25 @@
+.main_grid {
+  display: grid;
+  width: 360px;
+  height: 360px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 30px auto 0;
+  position: relative;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (max-width: 440px) {
+    transform: scale(0.8);
+    margin-top: 20px;
+  }
+
+  @media (max-width: 400px) {
+    transform: scale(0.7);
+    margin-left: calc((100vw - 400px) / 2);
+  }
+}

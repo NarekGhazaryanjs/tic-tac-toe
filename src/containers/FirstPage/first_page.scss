@@ -1,0 +1,157 @@
+@import "../../styles/variables.scss";
+
+.first_page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .content {
+    position: relative;
+    width: 1200px;
+    color: $black;
+    padding: 0 60px;
+    box-sizing: border-box;
+    margin-top: 200px;
+
+    @media (max-width: 1100px) {
+      max-width: 1000px;
+      margin-top: 180px;
+    }
+
+    @media (max-width: 900px) {
+      max-width: 800px;
+      margin-top: 150px;
+    }
+
+    @media (max-width: 740px) {
+      max-width: 680px;
+    }
+
+    @media (max-width: 640px) {
+      width: 100vw;
+      padding: 0 40px;
+      margin: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    @media (max-width: 520px) {
+      flex-direction: column;
+      margin-top: -50px;
+    }
+  }
+
+  .playing_board {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    right: -120px;
+    top: -240px;
+    margin-right: 70px;
+
+    @media (max-width: 1100px) {
+      width: 350px;
+      right: -80px;
+    }
+
+    @media (max-width: 900px) {
+      width: 280px;
+      right: -70px;
+    }
+
+    @media (max-width: 740px) {
+      width: 250px;
+      right: -50px;
+    }
+
+    @media (max-width: 640px) {
+      position: static;
+      width: 180px;
+      height: 180px;
+      margin: 0;
+    }
+
+    @media (max-width: 572px) {
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+  .title {
+    font-family: Pacifico;
+    font-weight: normal;
+    font-size: 160px;
+
+    @media (max-width: 1100px) {
+      font-size: 120px;
+    }
+
+    @media (max-width: 900px) {
+      font-size: 90px;
+    }
+
+    @media (max-width: 740px) {
+      font-size: 80px;
+    }
+
+    @media (max-width: 640px) {
+      font-size: 65px;
+      line-height: 80px;
+    }
+
+    @media (max-width: 572px) {
+      font-size: 60px;
+    }
+
+    @media (max-width: 370px) {
+      font-size: 50px;
+    }
+  }
+
+  .click_to_play {
+    display: block;
+    max-width: 300px;
+    color: $green;
+    font-family: Gochi Hand;
+    font-weight: normal;
+    font-size: 60px;
+    margin: -40px 0 0 100px;
+
+    @media (max-width: 1100px) {
+      max-width: 250px;
+      font-size: 50px;
+      margin: -30px 0 0 70px;
+    }
+
+    @media (max-width: 900px) {
+      max-width: 250px;
+      font-size: 40px;
+      margin: -20px 0 0 50px;
+    }
+
+    @media (max-width: 740px) {
+      max-width: 175px;
+      font-size: 35px;
+      margin: -20px 0 0 40px;
+    }
+
+    @media (max-width: 640px) {
+      margin: 0 0 0 20px;
+    }
+
+    @media (max-width: 572px) {
+      font-size: 30px;
+      max-width: 150px;
+    }
+
+    @media (max-width: 520px) {
+      margin: auto;
+    }
+
+    @media (max-width: 370px) {
+      font-size: 25px;
+      max-width: 125px;
+    }
+  }
+}
