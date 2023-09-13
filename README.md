@@ -13,10 +13,7 @@ This is a two-player tic-tac-toe game created using React JS.
 - Displays the result when one of the players wins or the board is full
 
 - Has a restart button
-
-## Demo
-
-> https://tic-tac-toe.ednoram.vercel.app/
+ 
 
 ## Screenshot
 
@@ -33,7 +30,7 @@ This is a two-player tic-tac-toe game created using React JS.
 > Clone Repository
 
 ```sh
-git clone https://github.com/ednoram/tic-tac-toe.git
+git clone https://github.com/NarekGhazaryanjs/tic-tac-toe.git
 ```
 
 > Run the following commands
@@ -42,13 +39,4 @@ git clone https://github.com/ednoram/tic-tac-toe.git
 npm install
 npm start
 ```
-
-## Contact
-
-Edward Noramirian
-
-> GitHub: [@ednoram](https://github.com/ednoram)
-
-> LinkedIn: [Edward Noramirian](https://www.linkedin.com/in/edward-noramirian)
-
-> Email: e.noramirian@gmail.com
+ 
